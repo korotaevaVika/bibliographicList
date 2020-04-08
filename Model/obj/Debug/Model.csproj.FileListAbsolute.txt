@@ -1,0 +1,4 @@
+D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\Model\bin\Debug\Model.dll
+D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\Model\bin\Debug\Model.pdb
+D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\Model\obj\Debug\Model.dll
+D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\Model\obj\Debug\Model.pdb

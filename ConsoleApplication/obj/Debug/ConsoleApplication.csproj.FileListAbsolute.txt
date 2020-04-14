@@ -6,3 +6,11 @@ D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\Conso
 D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\ConsoleApplication\bin\Debug\Model.dll
 D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\ConsoleApplication\bin\Debug\Model.pdb
 D:\Users\Виктория\documents\visual studio 2017\Projects\ConsoleApp\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\Model.dll
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\Model.pdb
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

@@ -1,14 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Model
+﻿namespace Model
 {
-    public enum LanguageEnum
+    /// <summary>
+    /// Доступные языки изданий
+    /// </summary>
+    public enum LanguageMode
     {
-        Russian = 0,
-        English = 1
+        Russian,
+        English
     }
 }

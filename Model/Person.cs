@@ -1,49 +1,45 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Linq;
-using System.Text;
+﻿using System.Globalization;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Model
 {
+    /// <summary>
+    /// Человек. Используется для хранения авторов изданий
+    /// </summary>
     public class Person
     {
         private string _firstName;
         private string _secondName;
         private string _patronymic;
-        private TextInfo _textInfo;
+        private TextInfo _textInfo = 
+            Thread.CurrentThread.CurrentCulture.TextInfo;
 
-        public Person()
-        {
-            _firstName = "";
-            _secondName = "";
-            _patronymic = "";
-            _textInfo = Thread.CurrentThread.CurrentCulture.TextInfo;
-        }
-        public Person(string secondName, string firstName, string patronymic = "")
-        {
-            _firstName = firstName;
-            _secondName = secondName;
-            _patronymic = patronymic;
-            _textInfo = Thread.CurrentThread.CurrentCulture.TextInfo;
-        }
-
-        /// <value>
+        /// <summary>
         /// Имя
-        /// </value>
-        public string FirstName => _textInfo.ToTitleCase(_firstName);
+        /// </summary>
+        public string FirstName
+        {
+            get { return _textInfo.ToTitleCase(_firstName); }
+            set { _firstName = value; }
+        }
 
-        /// <value>
+        /// <summary>
         /// Фамилия
-        /// </value>
-        public string SecondName => _textInfo.ToTitleCase(_secondName);
+        /// </summary>
+        public string SecondName
+        {
+            get { return _textInfo.ToTitleCase(_secondName); }
+            set { _secondName = value; }
+        }
 
-        /// <value>
+        /// <summary>
         /// Отчество
-        /// </value>
-        public string Patronymic => _textInfo.ToTitleCase(_patronymic);
+        /// </summary>
+        public string Patronymic
+        {
+            get { return _textInfo.ToTitleCase(_patronymic); }
+            set { _patronymic = value; }
+        }
 
         public string GetInitials()
         {

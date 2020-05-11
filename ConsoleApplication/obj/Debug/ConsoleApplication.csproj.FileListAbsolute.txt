@@ -11,6 +11,8 @@ D:\Users\Виктория\documents\visual studio 2017\Projects\Новая па�
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\Model.dll
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\bin\Debug\Model.pdb
-D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csprojResolveAssemblyReference.cache
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.exe
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csprojAssemblyReference.cache
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CopyComplete

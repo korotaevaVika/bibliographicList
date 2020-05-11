@@ -1,72 +1,82 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Linq;
 
 namespace Model
 {
-    /// <summary>
-    /// Книга
-    /// </summary>
-    public class Book : EditionBase
-    {
-        private string _publishingHouse;
-        
-        /// <summary>
-        /// Издательский дом
-        /// </summary>
-        public string PublishingHouse
-        {
-            get { return _publishingHouse; }
-            set
-            {
-                if (string.IsNullOrWhiteSpace(value))
-                {
-                    throw (value == null ?
-                        new ArgumentNullException(nameof(PublishingHouse),
-                            "Должен быть указан издательский дом") :
-                        new ArgumentException(nameof(PublishingHouse),
-                            "Издательский дом не может быть пустой строкой"));
-                }
-                else _publishingHouse = value;
-            }
-        }
-      
-        /// <summary>
-        /// Язык
-        /// </summary>
-        public LanguageMode Language { get; set; }
+	/// <summary>
+	/// Книга
+	/// </summary>
+	public class Book : EditionBase
+	{
+		private string _publishingHouse;
 
-        public override string GetStandartName()
-        {
-            string result = string.Empty;
+		/// <summary>
+		/// Издательский дом
+		/// </summary>
+		public string PublishingHouse
+		{
+			get { return _publishingHouse; }
+			set
+			{
+				_publishingHouse = Validation.
+					CheckStringValue(value, "Издательский дом");
+			}
+		}
 
-            if (Authors.Count > 3)
-            {
-                result += string.Format("{0} / {1} {2}",
-                    Title,
-                    Authors.First().GetInitials(),
-                    Authors.First().SecondName);
+		/// <summary>
+		/// Язык книги
+		/// </summary>
+		public LanguageMode Language
+		{
+			get
+			{ return _language; }
+			set
+			{
+				if (!Enum.IsDefined(typeof(LanguageMode), value))
+				{
+					throw new InvalidEnumArgumentException(
+						"Значение в перечислении языков не определено");
+				}
+				_language = value;
+			}
+		}
 
-                result += " " + Texts.GetValue("Others", Language) + " ";
-            }
-            else
-            {
-                result += string.Format("{0}, {1}{2} / ",
-                    Authors.First().SecondName,
-                    Authors.First().GetInitials(), Title);
+		public override string StandartName
+		{
+			get
+			{
+				string result = string.Empty;
 
-                Authors.ForEach(x =>
-                {
-                    result += string.Format("{0} {1}, ",
-                        x.GetInitials(), x.SecondName);
-                });
-                result = result.Remove(result.Length - 2, 2);
-            }
-            result += string.Format(". – {0}: {1}, {2}. – {3} ",
-                City, PublishingHouse, Year, NumPages);
+				if (Authors.Count > 3)
+				{
+					result += string.Format("{0} / {1} {2}",
+						Title,
+						Authors.First().Initials,
+						Authors.First().SecondName);
 
-            result += Texts.GetValue("Pages", Language);
-            result += ".";
-            return result;
-        }
-    }
+					result += $" {Texts.GetValue("Others", Language)} ";
+				}
+				else
+				{
+					result += string.Format("{0}, {1}{2} / ",
+						Authors.First().SecondName,
+						Authors.First().Initials, Title);
+
+					Authors.ForEach(x =>
+					{
+						result += string.Format("{0} {1}, ",
+							x.Initials, x.SecondName);
+					});
+					result = result.Remove(result.Length - 2, 2);
+				}
+				result += string.Format(". – {0}: {1}, {2}. – {3} ",
+					City, PublishingHouse, Year, NumPages);
+
+				result += Texts.GetValue("Pages", Language);
+				result += ".";
+				return result;
+			}
+		}
+	}
 }

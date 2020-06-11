@@ -8,7 +8,11 @@ namespace Model
 	/// </summary>
 	public abstract class EditionBase : IEdition
 	{
-		const int MinPublishingYear = 868;
+		/// <summary>
+		/// Минимальный год публикации
+		/// </summary>
+		public const int MinPublishingYear = 868;
+
 		protected List<Person> _authors;
 		protected string _city;
 		protected LanguageMode _language;

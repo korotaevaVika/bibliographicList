@@ -41,8 +41,7 @@ namespace Model
 					CheckStringValue(value, "Код специальности");
 			}
 		}
-
-
+		
 		/// <summary>
 		/// Название университета
 		/// </summary>
@@ -56,6 +55,9 @@ namespace Model
 			}
 		}
 
+		/// <summary>
+		/// Наименование по ГОСТу
+		/// </summary>
 		public override string StandartName
 		{
 			get

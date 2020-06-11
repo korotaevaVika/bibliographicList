@@ -42,6 +42,9 @@ namespace Model
 			}
 		}
 
+		/// <summary>
+		/// Наименование по ГОСТу
+		/// </summary>
 		public override string StandartName
 		{
 			get

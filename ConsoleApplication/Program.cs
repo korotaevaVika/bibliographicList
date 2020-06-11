@@ -5,8 +5,16 @@ using System.Text;
 
 namespace ConsoleApplication
 {
-	class Program
+	/// <summary>
+	/// Класс для сбора и обработки данных пользователя 
+	/// с консоли для создания библиографического списка
+	/// </summary>
+	public class Program
 	{
+		/// <summary>
+		/// Инициирует создание библиографического списка
+		/// путем последующего ввода данных пользователем в консоли
+		/// </summary>
 		static void Main(string[] args)
 		{
 			string output;
@@ -367,7 +375,7 @@ namespace ConsoleApplication
 		/// Запрашивает у пользователя ввод свойства
 		/// </summary>
 		/// <param name="name">Название свойства</param>
-		/// <returns></returns>
+		/// <returns>Введенная строка</returns>
 		private static string GetUserInput(string name)
 		{
 			ShowInfo(string.Format("Введите {0}: ", name));
@@ -387,7 +395,8 @@ namespace ConsoleApplication
 		}
 
 		/// <summary>
-		/// Выводит на консоль информационное сообщение
+		/// Выводит на консоль информационное сообщение,
+		/// окрашивая текст в указанный цвет
 		/// </summary>
 		/// <param name="message">Текст сообщения</param>
 		/// <param name="consoleColor">Цвет текста в консоли</param>

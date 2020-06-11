@@ -37,7 +37,7 @@ namespace Model
 		/// </summary>
 		/// <param name="name">идентификатор (название) объекта</param>
 		/// <param name="language">язык</param>
-		/// <returns></returns>
+		/// <returns>название объекта на требуемом языке</returns>
 		public static string GetValue(string name, LanguageMode language)
 		{
 			return _languageTexts.

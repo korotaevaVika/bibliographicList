@@ -53,6 +53,9 @@ namespace Model
 			}
 		}
 
+		/// <summary>
+		/// Инициалы человека
+		/// </summary>
 		public string Initials
 		{
 			get

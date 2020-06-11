@@ -23,7 +23,7 @@ namespace Model
 		int Year { get; set; }
 
 		/// <summary>
-		/// Возвращает название издания по ГОСТ,
+		/// Название издания по ГОСТ,
 		/// т.к. указанный ресурс ostu.ru/libraries/bibl_opisanie.php 
 		/// недоступен, ГОСТ взят из
 		/// https://gsom.spbu.ru/files/upload/library/list_of_literature.pdf

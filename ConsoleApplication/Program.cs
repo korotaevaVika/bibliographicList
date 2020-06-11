@@ -1,6 +1,7 @@
 ﻿using Model;
 using System;
 using System.Collections.Generic;
+using System.Reflection;
 using System.Text;
 
 namespace ConsoleApplication
@@ -82,115 +83,12 @@ namespace ConsoleApplication
 		private static Dissertation CreateDissertation()
 		{
 			Dissertation disser = new Dissertation();
-			bool successEnterProperty;
-
 			ShowInfo("Создание диссертации\n");
-
 			Person author = CreateAuthor();
 			disser.Authors = new List<Person> { author };
 			Console.WriteLine();
 
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.Title = GetUserInput("заголовок диссертации");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.Year =
-						Convert.ToInt16(GetUserInput("год публикации"));
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.NumPages =
-						Convert.ToInt16(GetUserInput("кол-во страниц"));
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.University = GetUserInput("название вуза");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.Degree = GetUserInput("ученую степень");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.SpecialityCode =
-						GetUserInput("код специальности");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					disser.City = GetUserInput("город");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
+			SetProperties(ref disser, new string[] { nameof(disser.Authors) });
 			return disser;
 		}
 
@@ -200,42 +98,9 @@ namespace ConsoleApplication
 		/// <returns>Автор издания</returns>
 		private static Person CreateAuthor()
 		{
-			Person p = null;
-			bool successEnterProperty;
-
 			ShowInfo("Создание автора");
-			p = new Person();
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					p.SecondName = GetUserInput("фамилию");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					p.FirstName = GetUserInput("имя");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			p.Patronymic = GetUserInput("отчество");
-
+			Person p = new Person();
+			SetProperties(ref p);
 			return p;
 		}
 
@@ -248,19 +113,18 @@ namespace ConsoleApplication
 			List<Person> authors = new List<Person>();
 			Person author;
 			int authorsCount = 0;
-			bool successEnterProperty;
+			bool successEnterProperty = false;
 
 			ShowInfo("Создание книги\n");
 			Book book = new Book();
 
-			successEnterProperty = false;
 			while (successEnterProperty == false)
 			{
 				try
 				{
 					authorsCount =
-						Convert.ToInt16(
-							GetUserInput("количество авторов"));
+						(int)GetUserInput(authorsCount.GetType(),
+							"количество авторов");
 					successEnterProperty = true;
 				}
 				catch (FormatException ex)
@@ -279,107 +143,24 @@ namespace ConsoleApplication
 			book.Authors = authors;
 			Console.WriteLine();
 
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.Title = GetUserInput("название");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.PublishingHouse =
-						GetUserInput("название издательства");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.City =
-						GetUserInput("город");
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.Year = Convert.ToInt16(
-						GetUserInput("год публикации"));
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.NumPages = Convert.ToInt16(
-						GetUserInput("кол-во страниц"));
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
-			successEnterProperty = false;
-			while (successEnterProperty == false)
-			{
-				try
-				{
-					book.Language = (LanguageMode)Convert.ToInt16(
-						GetUserInput("0, если язык русский, иначе 1"));
-					successEnterProperty = true;
-				}
-				catch (Exception ex)
-				{
-					ShowException(ex);
-				}
-			}
-
+			SetProperties(ref book, new string[] { nameof(book.Authors) });
 			return book;
 		}
 
 		/// <summary>
-		/// Запрашивает у пользователя ввод свойства
+		/// Запрашивает и считывает свойство объекта
 		/// </summary>
+		/// <param name="type">Ожидаемый тип свойства</param>
 		/// <param name="name">Название свойства</param>
-		/// <returns>Введенная строка</returns>
-		private static string GetUserInput(string name)
+		/// <returns>Объект ожидаемого типа</returns>
+		private static object GetUserInput(Type type, string name)
 		{
 			ShowInfo(string.Format("Введите {0}: ", name));
-			return Console.ReadLine();
+
+			if (type.IsEnum)
+				return Enum.Parse(type, Console.ReadLine(), false);
+			else
+				return Convert.ChangeType(Console.ReadLine(), type);
 		}
 
 		/// <summary>
@@ -406,6 +187,88 @@ namespace ConsoleApplication
 			Console.ForegroundColor = consoleColor;
 			Console.WriteLine(message);
 			Console.ForegroundColor = ConsoleColor.White;
+		}
+
+		/// <summary>
+		/// Метод для заполнения свойств объекта
+		/// </summary>
+		/// <param name="instance">объект для заполнения</param>
+		/// <param name="ignoredProperties">свойства, 
+		/// которые не надо заполнять
+		/// </param>
+		private static void SetProperties<T>(ref T instance,
+			string[] ignoredProperties = null)
+		{
+			bool successEnterProperty;
+			Dictionary<string, string> propertyTexts =
+				new Dictionary<string, string>();
+			Type type = instance.GetType();
+
+			switch (type.Name)
+			{
+				case nameof(Person):
+					propertyTexts = new Dictionary<string, string>
+					{
+						["SecondName"] = "фамилию",
+						["FirstName"] = "имя",
+						["Patronymic"] = "отчество"
+					};
+					break;
+				case nameof(Book):
+					propertyTexts = new Dictionary<string, string>
+					{
+						["Title"] = "название",
+						["PublishingHouse"] = "название издательства",
+						["City"] = "город",
+						["Year"] = "год публикации",
+						["NumPages"] = "кол-во страниц",
+						["Language"] = "0, если язык русский, иначе 1"
+					};
+					break;
+				case nameof(Dissertation):
+					propertyTexts = new Dictionary<string, string>
+					{
+						["Title"] = "заголовок диссертации",
+						["Year"] = "год публикации",
+						["NumPages"] = "кол-во страниц",
+						["University"] = "название вуза",
+						["Degree"] = "ученую степень",
+						["SpecialityCode"] = "код специальности",
+						["City"] = "город"
+					};
+					break;
+				default:
+					throw new ArgumentException("Недопустимый тип объекта");
+			}
+
+			foreach (var propertyInfo in type.GetProperties())
+			{
+				successEnterProperty = false;
+				if (ignoredProperties != null &&
+					Array.Exists(ignoredProperties,
+						e => e == propertyInfo.Name))
+					continue;
+				
+				if (propertyInfo.GetSetMethod() != null)
+				{
+					successEnterProperty = false;
+					while (!successEnterProperty)
+					{
+						try
+						{
+							propertyInfo.SetValue(instance,
+								GetUserInput(propertyInfo.PropertyType,
+									propertyTexts[propertyInfo.Name]));
+							successEnterProperty = true;
+						}
+						catch (Exception ex)
+						{
+							ShowException(ex.InnerException ?? ex);
+						}
+					}
+					Console.WriteLine();
+				}
+			}
 		}
 	}
 }

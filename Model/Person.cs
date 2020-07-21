@@ -1,5 +1,7 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 using System.Threading;
+using System.Xml.Serialization;
 
 namespace Model
 {
@@ -65,6 +67,15 @@ namespace Model
 				else
 					return FirstName[0] + ". " + Patronymic[0] + ".";
 			}
+		}
+
+		/// <summary>
+		/// Метод для получения полного имени
+		/// </summary>
+		/// <returns>полное имя человека</returns>
+		public override string ToString()
+		{
+			return string.Concat(SecondName, " ", FirstName, " ", Patronymic);
 		}
 	}
 }

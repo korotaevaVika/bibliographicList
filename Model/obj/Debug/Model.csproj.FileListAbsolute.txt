@@ -8,3 +8,9 @@ D:\Users\Виктория\documents\visual studio 2017\Projects\Новая па�
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\Model\obj\Debug\Model.pdb
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\Model\obj\Debug\Model.csprojAssemblyReference.cache
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\bin\Debug\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\bin\Debug\Model.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.pdb

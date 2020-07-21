@@ -1,0 +1,14 @@
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Release\View.exe.config
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Release\View.exe
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Release\View.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Release\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Release\Model.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.csprojAssemblyReference.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.MainForm.resources
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.Properties.AddEditionForm.resources
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.Properties.Resources.resources
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.csproj.GenerateResource.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.csproj.CopyComplete
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.exe
+C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Release\View.pdb

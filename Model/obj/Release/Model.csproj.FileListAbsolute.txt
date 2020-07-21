@@ -1,0 +1,6 @@
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\bin\Release\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\bin\Release\Model.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Release\Model.csprojAssemblyReference.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Release\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Release\Model.pdb

@@ -16,3 +16,13 @@ D:\Users\Виктория\documents\visual studio 2017\Projects\Новая па�
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csprojAssemblyReference.cache
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
 D:\Users\Виктория\documents\visual studio 2017\Projects\Новая папка\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CopyComplete
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\bin\Debug\Model.dll
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\bin\Debug\Model.pdb
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csprojAssemblyReference.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.csproj.CopyComplete
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Users\Виктория\source\repos\andrew\bibliographicList\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

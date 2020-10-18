@@ -14,3 +14,15 @@ C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\
 C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
 C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.dll
 C:\Users\Виктория\source\repos\andrew\bibliographicList\Model\obj\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\obj\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba\bibliographicList\Model\obj\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\obj\Debug\Model.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\obj\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\Model\obj\Debug\Model.pdb

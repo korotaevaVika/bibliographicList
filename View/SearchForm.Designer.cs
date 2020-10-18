@@ -43,15 +43,18 @@
 			// 
 			// groupBoxParameters
 			// 
+			this.groupBoxParameters.AutoSize = true;
+			this.groupBoxParameters.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.groupBoxParameters.Controls.Add(this.btnSearch);
 			this.groupBoxParameters.Controls.Add(this.txtValue);
 			this.groupBoxParameters.Controls.Add(this.label1);
 			this.groupBoxParameters.Controls.Add(this.cmbParameters);
 			this.groupBoxParameters.Controls.Add(this.lblParameter);
-			this.groupBoxParameters.Location = new System.Drawing.Point(12, 12);
+			this.groupBoxParameters.Dock = System.Windows.Forms.DockStyle.Top;
+			this.groupBoxParameters.Location = new System.Drawing.Point(0, 0);
 			this.groupBoxParameters.Name = "groupBoxParameters";
-			this.groupBoxParameters.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-			this.groupBoxParameters.Size = new System.Drawing.Size(584, 51);
+			this.groupBoxParameters.Padding = new System.Windows.Forms.Padding(2);
+			this.groupBoxParameters.Size = new System.Drawing.Size(601, 61);
 			this.groupBoxParameters.TabIndex = 0;
 			this.groupBoxParameters.TabStop = false;
 			this.groupBoxParameters.Text = "Search Parameters";
@@ -69,7 +72,7 @@
 			// txtValue
 			// 
 			this.txtValue.Location = new System.Drawing.Point(286, 23);
-			this.txtValue.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.txtValue.Margin = new System.Windows.Forms.Padding(2);
 			this.txtValue.Name = "txtValue";
 			this.txtValue.Size = new System.Drawing.Size(192, 20);
 			this.txtValue.TabIndex = 5;
@@ -103,11 +106,14 @@
 			// 
 			// groupBoxResults
 			// 
+			this.groupBoxResults.AutoSize = true;
+			this.groupBoxResults.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.groupBoxResults.Controls.Add(this.gridEditions);
-			this.groupBoxResults.Location = new System.Drawing.Point(12, 69);
+			this.groupBoxResults.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.groupBoxResults.Location = new System.Drawing.Point(0, 61);
 			this.groupBoxResults.Name = "groupBoxResults";
-			this.groupBoxResults.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-			this.groupBoxResults.Size = new System.Drawing.Size(584, 159);
+			this.groupBoxResults.Padding = new System.Windows.Forms.Padding(2);
+			this.groupBoxResults.Size = new System.Drawing.Size(601, 175);
 			this.groupBoxResults.TabIndex = 7;
 			this.groupBoxResults.TabStop = false;
 			this.groupBoxResults.Text = "Search Results";
@@ -115,10 +121,11 @@
 			// gridEditions
 			// 
 			this.gridEditions.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-			this.gridEditions.Location = new System.Drawing.Point(8, 26);
+			this.gridEditions.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.gridEditions.Location = new System.Drawing.Point(2, 15);
 			this.gridEditions.Name = "gridEditions";
 			this.gridEditions.ReadOnly = true;
-			this.gridEditions.Size = new System.Drawing.Size(565, 128);
+			this.gridEditions.Size = new System.Drawing.Size(597, 158);
 			this.gridEditions.TabIndex = 1;
 			// 
 			// SearchForm
@@ -128,7 +135,7 @@
 			this.ClientSize = new System.Drawing.Size(601, 236);
 			this.Controls.Add(this.groupBoxResults);
 			this.Controls.Add(this.groupBoxParameters);
-			this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.Margin = new System.Windows.Forms.Padding(2);
 			this.Name = "SearchForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Search";
@@ -138,6 +145,7 @@
 			this.groupBoxResults.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.gridEditions)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 

@@ -9,8 +9,14 @@ namespace View
 	public partial class SearchForm : Form
 	{
 		private List<string> parameters;
+		/// <summary>
+		/// Список сохраненных изданий
+		/// </summary>
 		public List<IEdition> Editions { get; set; }
 
+		/// <summary>
+		/// Конструктор
+		/// </summary>
 		public SearchForm()
 		{
 			parameters = new List<string>(){
@@ -33,12 +39,19 @@ namespace View
 				DataGridViewSelectionMode.FullRowSelect;
 		}
 
+		/// <summary>
+		/// Добавление имен изданий по ГОСТ в таблицу при загрузке формы
+		/// </summary>
 		private void SearchForm_Load(object sender, EventArgs e)
 		{
 			Editions.ForEach(x => gridEditions.Rows.Add(x.StandartName));
 			cmbParameters.DataSource = parameters;
 		}
 
+		/// <summary>
+		/// Метод осуществляет поиск издания 
+		/// по атрибуту, выбранному пользователем
+		/// </summary>
 		private void btnSearch_Click(object sender, EventArgs e)
 		{
 			if (string.IsNullOrWhiteSpace(txtValue.Text))

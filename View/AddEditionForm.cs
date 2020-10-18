@@ -24,9 +24,24 @@ namespace View.Properties
 
 	public partial class AddEditionForm : Form
 	{
+		/// <summary>
+		/// Таблица авторов
+		/// </summary>
 		DataTable dtAuthors;
+
+		/// <summary>
+		/// Выбранный тип издания
+		/// </summary>
 		EditionTypes editionType;
 
+		/// <summary>
+		/// Ссылка на форму, из которой была вызвана текущая форма
+		/// </summary>
+		public MainForm CallerForm { get; set; }
+
+		/// <summary>
+		/// Конструктор
+		/// </summary>
 		public AddEditionForm()
 		{
 			InitializeComponent();
@@ -40,11 +55,15 @@ namespace View.Properties
 			gridAuthors.AllowUserToAddRows = false;
 			gridAuthors.AllowUserToDeleteRows = false;
 			gridAuthors.AllowUserToOrderColumns = false;
-			#if !DEBUG
+#if !DEBUG
 			btnCreateRandomData.Visible = false;
-			#endif
+#endif
 		}
 
+		/// <summary>
+		/// Метод загрузки формы для настройки свойств контролов,
+		/// привязки обработчиков
+		/// </summary>
 		private void AddEditionForm_Load(object sender, EventArgs e)
 		{
 			cmbEditionTypes.DataSource = Enum.GetValues(typeof(EditionTypes));
@@ -98,10 +117,14 @@ namespace View.Properties
 		}
 
 		#region Main Buttons Handlers
+		/// <summary>
+		/// Метод, выполняющий сохранение издания
+		/// </summary>
 		private void btnOk_Click(object sender, EventArgs e)
 		{
 			try
 			{
+
 				List<Person> authors = new List<Person>();
 				foreach (DataRow row in dtAuthors.Rows)
 				{
@@ -110,7 +133,8 @@ namespace View.Properties
 						{
 							SecondName = (string)row[0],
 							FirstName = (string)row[1],
-							Patronymic = (string)row[2]
+							Patronymic = row.IsNull(2) ?
+								string.Empty : row.Field<string>(2)
 						});
 				}
 
@@ -120,22 +144,8 @@ namespace View.Properties
 						Convert.ChangeType(edition, type),
 						authors);
 
-				var writer = new XmlSerializer(edition.GetType());
-
-				StringBuilder filePath = new StringBuilder(
-					Directory.GetCurrentDirectory());
-				filePath.Append("\\Editions\\").
-					Append(edition.GetType().Name).
-					Append("_").
-					Append(DateTime.Now.ToString("yyyyMMddHHmmssffff")).
-					Append(".bib");
-
-				using (var file = File.Create(filePath.ToString()))
-				{
-					writer.Serialize(file, edition);
-					file.Close();
-				}
-				this.Close();
+				CallerForm.AddEdition(edition);
+				Close();
 			}
 			catch (Exception ex)
 			{
@@ -144,11 +154,17 @@ namespace View.Properties
 			}
 		}
 
+		/// <summary>
+		/// Обработка нажатия на кнопку Cancel
+		/// </summary>
 		private void btnCancel_Click(object sender, EventArgs e)
 		{
-			this.Close();
+			Close();
 		}
 
+		/// <summary>
+		/// Метод, заполняющий поля издания случайными данными
+		/// </summary>
 		private void btnCreateRandomData_Click(object sender, EventArgs e)
 		{
 			string[] names = new string[] { "John", "Mary", "Peter" };
@@ -199,6 +215,10 @@ namespace View.Properties
 		#endregion Main Buttons Handlers
 
 		#region Controls Hadlers
+		/// <summary>
+		/// Обработка изменения типа издания в выпадающем списке.
+		/// Отвечает за отображение нужных полей конкретного типа издания
+		/// </summary>
 		private void cmbEditionTypes_SelectedIndexChanged(object sender, EventArgs e)
 		{
 			editionType = (EditionTypes)(cmbEditionTypes.SelectedItem);
@@ -251,6 +271,9 @@ namespace View.Properties
 			CheckAuthorsCount();
 		}
 
+		/// <summary>
+		/// Проверка содержания некорректных символов в строке
+		/// </summary>
 		private void TextChangedEventHandler(object sender, EventArgs e)
 		{
 			Regex regex = new Regex(@"^[A-Za-zА-Яа-я_ _-]+$");
@@ -264,6 +287,10 @@ namespace View.Properties
 			}
 		}
 
+		/// <summary>
+		/// Отображение ошибки при несоответствии свойств издания 
+		/// ожидаемому формату
+		/// </summary>
 		private void TextValidationEventHandler(object sender, EventArgs e)
 		{
 			Control control = null;
@@ -301,10 +328,13 @@ namespace View.Properties
 				errorProvider.SetError(control, exceptionMessage);
 			}
 		}
-		
+
 		#endregion Controls Hadlers
 
 		#region Authors Grid Handlers
+		/// <summary>
+		/// Добавление новой строки в таблицу авторов
+		/// </summary>
 		private void btnAddAuthor_Click(object sender, EventArgs e)
 		{
 			DataRow row = dtAuthors.NewRow();
@@ -312,6 +342,9 @@ namespace View.Properties
 			CheckAuthorsCount();
 		}
 
+		/// <summary>
+		/// Удаление автора
+		/// </summary>
 		private void btnRemoveAuthor_Click(object sender, EventArgs e)
 		{
 			foreach (DataGridViewRow row in gridAuthors.SelectedRows)
@@ -321,6 +354,9 @@ namespace View.Properties
 			CheckAuthorsCount();
 		}
 
+		/// <summary>
+		/// Валидация свойств автора
+		/// </summary>
 		private void gridAuthors_CellValidating(object sender,
 			DataGridViewCellValidatingEventArgs e)
 		{
@@ -347,6 +383,9 @@ namespace View.Properties
 
 		#region Properties
 		private IEdition edition;
+		/// <summary>
+		/// Создаваемое издание
+		/// </summary>
 		public IEdition Edition
 		{
 			get

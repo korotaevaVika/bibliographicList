@@ -1,12 +1,14 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Linq;
+using System.Xml.Serialization;
 
 namespace Model
 {
 	/// <summary>
 	/// Книга
 	/// </summary>
+	[XmlRoot(ElementName = "Book")]
 	public class Book : EditionBase
 	{
 		private string _publishingHouse;

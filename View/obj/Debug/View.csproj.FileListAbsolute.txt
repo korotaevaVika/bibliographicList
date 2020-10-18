@@ -13,3 +13,63 @@ C:\Users\Виктория\source\repos\andrew\bibliographicList\View\bin\Debug\M
 C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Debug\View.Properties.AddEditionForm.resources
 C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Debug\View.csproj.CopyComplete
 C:\Users\Виктория\source\repos\andrew\bibliographicList\View\obj\Debug\View.SearchForm.resources
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\bin\Debug\View.exe.config
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\bin\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\bin\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.MainForm.resources
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.Properties.AddEditionForm.resources
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.Properties.Resources.resources
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.SearchForm.resources
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.csproj.CopyComplete
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba\bibliographicList\View\obj\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\bin\Debug\View.exe.config
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\bin\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\bin\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.MainForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.Properties.AddEditionForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.Properties.Resources.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.SearchForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.csproj.CopyComplete
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize)\bibliographicList\View\obj\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\bin\Debug\View.exe.config
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\bin\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\bin\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.Properties.AddEditionForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.Properties.Resources.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.SearchForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.csproj.CopyComplete
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила) — копия\bibliographicList\View\obj\Debug\View.MainForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\bin\Debug\View.exe.config
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\bin\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\bin\Debug\View.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\bin\Debug\Model.dll
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\bin\Debug\Model.pdb
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.csprojAssemblyReference.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.MainForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.Properties.AddEditionForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.Properties.Resources.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.SearchForm.resources
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.csproj.GenerateResource.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.csproj.CopyComplete
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.exe
+D:\Users\Виктория\Repositories\Laba —(в пред сделан resize, add form нельзя увеличить, комменты добавила, логика хранения изменена)\bibliographicList\View\obj\Debug\View.pdb

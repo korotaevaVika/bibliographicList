@@ -53,10 +53,10 @@
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AddEditionForm.cs">
+    <Compile Include="AddEditionForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Properties\AddEditionForm.Designer.cs">
+    <Compile Include="AddEditionForm.Designer.cs">
       <DependentUpon>AddEditionForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,7 +69,7 @@
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Properties\AddEditionForm.resx">
+    <EmbeddedResource Include="AddEditionForm.resx">
       <DependentUpon>AddEditionForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">

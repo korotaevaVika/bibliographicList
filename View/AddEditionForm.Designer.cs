@@ -64,9 +64,10 @@
 			// lblEditionType
 			// 
 			this.lblEditionType.AutoSize = true;
-			this.lblEditionType.Location = new System.Drawing.Point(12, 13);
+			this.lblEditionType.Location = new System.Drawing.Point(22, 24);
+			this.lblEditionType.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblEditionType.Name = "lblEditionType";
-			this.lblEditionType.Size = new System.Drawing.Size(66, 13);
+			this.lblEditionType.Size = new System.Drawing.Size(121, 25);
 			this.lblEditionType.TabIndex = 0;
 			this.lblEditionType.Text = "Edition Type";
 			// 
@@ -74,75 +75,84 @@
 			// 
 			this.cmbEditionTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cmbEditionTypes.FormattingEnabled = true;
-			this.cmbEditionTypes.Location = new System.Drawing.Point(128, 10);
+			this.cmbEditionTypes.Location = new System.Drawing.Point(235, 18);
+			this.cmbEditionTypes.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.cmbEditionTypes.Name = "cmbEditionTypes";
-			this.cmbEditionTypes.Size = new System.Drawing.Size(138, 21);
+			this.cmbEditionTypes.Size = new System.Drawing.Size(250, 32);
 			this.cmbEditionTypes.TabIndex = 1;
 			this.cmbEditionTypes.SelectedIndexChanged += new System.EventHandler(this.cmbEditionTypes_SelectedIndexChanged);
 			// 
 			// lblTitle
 			// 
 			this.lblTitle.AutoSize = true;
-			this.lblTitle.Location = new System.Drawing.Point(12, 40);
+			this.lblTitle.Location = new System.Drawing.Point(22, 74);
+			this.lblTitle.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblTitle.Name = "lblTitle";
-			this.lblTitle.Size = new System.Drawing.Size(27, 13);
+			this.lblTitle.Size = new System.Drawing.Size(49, 25);
 			this.lblTitle.TabIndex = 2;
 			this.lblTitle.Text = "Title";
 			// 
 			// lblPublishingHouse
 			// 
 			this.lblPublishingHouse.AutoSize = true;
-			this.lblPublishingHouse.Location = new System.Drawing.Point(12, 148);
+			this.lblPublishingHouse.Location = new System.Drawing.Point(22, 273);
+			this.lblPublishingHouse.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblPublishingHouse.Name = "lblPublishingHouse";
-			this.lblPublishingHouse.Size = new System.Drawing.Size(89, 13);
+			this.lblPublishingHouse.Size = new System.Drawing.Size(164, 25);
 			this.lblPublishingHouse.TabIndex = 4;
 			this.lblPublishingHouse.Text = "Publishing House";
 			// 
 			// txtTitle
 			// 
-			this.txtTitle.Location = new System.Drawing.Point(128, 37);
+			this.txtTitle.Location = new System.Drawing.Point(235, 68);
+			this.txtTitle.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.txtTitle.Name = "txtTitle";
-			this.txtTitle.Size = new System.Drawing.Size(413, 20);
+			this.txtTitle.Size = new System.Drawing.Size(754, 29);
 			this.txtTitle.TabIndex = 6;
 			// 
 			// txtPublishingHouse
 			// 
-			this.txtPublishingHouse.Location = new System.Drawing.Point(128, 145);
+			this.txtPublishingHouse.Location = new System.Drawing.Point(235, 268);
+			this.txtPublishingHouse.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.txtPublishingHouse.Name = "txtPublishingHouse";
-			this.txtPublishingHouse.Size = new System.Drawing.Size(199, 20);
+			this.txtPublishingHouse.Size = new System.Drawing.Size(362, 29);
 			this.txtPublishingHouse.TabIndex = 7;
 			// 
 			// txtCity
 			// 
-			this.txtCity.Location = new System.Drawing.Point(128, 91);
+			this.txtCity.Location = new System.Drawing.Point(235, 168);
+			this.txtCity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.txtCity.Name = "txtCity";
-			this.txtCity.Size = new System.Drawing.Size(199, 20);
+			this.txtCity.Size = new System.Drawing.Size(362, 29);
 			this.txtCity.TabIndex = 10;
 			// 
 			// lblYear
 			// 
 			this.lblYear.AutoSize = true;
-			this.lblYear.Location = new System.Drawing.Point(12, 67);
+			this.lblYear.Location = new System.Drawing.Point(22, 124);
+			this.lblYear.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblYear.Name = "lblYear";
-			this.lblYear.Size = new System.Drawing.Size(29, 13);
+			this.lblYear.Size = new System.Drawing.Size(53, 25);
 			this.lblYear.TabIndex = 9;
 			this.lblYear.Text = "Year";
 			// 
 			// lblCity
 			// 
 			this.lblCity.AutoSize = true;
-			this.lblCity.Location = new System.Drawing.Point(12, 94);
+			this.lblCity.Location = new System.Drawing.Point(22, 174);
+			this.lblCity.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblCity.Name = "lblCity";
-			this.lblCity.Size = new System.Drawing.Size(24, 13);
+			this.lblCity.Size = new System.Drawing.Size(46, 25);
 			this.lblCity.TabIndex = 8;
 			this.lblCity.Text = "City";
 			// 
 			// lblNumPages
 			// 
 			this.lblNumPages.AutoSize = true;
-			this.lblNumPages.Location = new System.Drawing.Point(393, 67);
+			this.lblNumPages.Location = new System.Drawing.Point(721, 124);
+			this.lblNumPages.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblNumPages.Name = "lblNumPages";
-			this.lblNumPages.Size = new System.Drawing.Size(88, 13);
+			this.lblNumPages.Size = new System.Drawing.Size(161, 25);
 			this.lblNumPages.TabIndex = 12;
 			this.lblNumPages.Text = "Number of pages";
 			// 
@@ -150,25 +160,28 @@
 			// 
 			this.cmbLanguages.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.cmbLanguages.FormattingEnabled = true;
-			this.cmbLanguages.Location = new System.Drawing.Point(128, 118);
+			this.cmbLanguages.Location = new System.Drawing.Point(235, 218);
+			this.cmbLanguages.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.cmbLanguages.Name = "cmbLanguages";
-			this.cmbLanguages.Size = new System.Drawing.Size(138, 21);
+			this.cmbLanguages.Size = new System.Drawing.Size(250, 32);
 			this.cmbLanguages.TabIndex = 15;
 			// 
 			// lblLanguage
 			// 
 			this.lblLanguage.AutoSize = true;
-			this.lblLanguage.Location = new System.Drawing.Point(12, 121);
+			this.lblLanguage.Location = new System.Drawing.Point(22, 223);
+			this.lblLanguage.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblLanguage.Name = "lblLanguage";
-			this.lblLanguage.Size = new System.Drawing.Size(55, 13);
+			this.lblLanguage.Size = new System.Drawing.Size(100, 25);
 			this.lblLanguage.TabIndex = 14;
 			this.lblLanguage.Text = "Language";
 			// 
 			// btnOk
 			// 
-			this.btnOk.Location = new System.Drawing.Point(8, 320);
+			this.btnOk.Location = new System.Drawing.Point(15, 591);
+			this.btnOk.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btnOk.Name = "btnOk";
-			this.btnOk.Size = new System.Drawing.Size(174, 23);
+			this.btnOk.Size = new System.Drawing.Size(319, 42);
 			this.btnOk.TabIndex = 16;
 			this.btnOk.Text = "Ok";
 			this.btnOk.UseVisualStyleBackColor = true;
@@ -176,9 +189,10 @@
 			// 
 			// btnCancel
 			// 
-			this.btnCancel.Location = new System.Drawing.Point(188, 320);
+			this.btnCancel.Location = new System.Drawing.Point(345, 591);
+			this.btnCancel.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btnCancel.Name = "btnCancel";
-			this.btnCancel.Size = new System.Drawing.Size(174, 23);
+			this.btnCancel.Size = new System.Drawing.Size(319, 42);
 			this.btnCancel.TabIndex = 17;
 			this.btnCancel.Text = "Cancel";
 			this.btnCancel.UseVisualStyleBackColor = true;
@@ -186,9 +200,10 @@
 			// 
 			// btnCreateRandomData
 			// 
-			this.btnCreateRandomData.Location = new System.Drawing.Point(368, 320);
+			this.btnCreateRandomData.Location = new System.Drawing.Point(675, 591);
+			this.btnCreateRandomData.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.btnCreateRandomData.Name = "btnCreateRandomData";
-			this.btnCreateRandomData.Size = new System.Drawing.Size(174, 23);
+			this.btnCreateRandomData.Size = new System.Drawing.Size(319, 42);
 			this.btnCreateRandomData.TabIndex = 18;
 			this.btnCreateRandomData.Text = "Create Random Data";
 			this.btnCreateRandomData.UseVisualStyleBackColor = true;
@@ -196,44 +211,49 @@
 			// 
 			// txtUniversity
 			// 
-			this.txtUniversity.Location = new System.Drawing.Point(128, 118);
+			this.txtUniversity.Location = new System.Drawing.Point(235, 218);
+			this.txtUniversity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.txtUniversity.Name = "txtUniversity";
-			this.txtUniversity.Size = new System.Drawing.Size(199, 20);
+			this.txtUniversity.Size = new System.Drawing.Size(362, 29);
 			this.txtUniversity.TabIndex = 20;
 			// 
 			// lblUniversity
 			// 
 			this.lblUniversity.AutoSize = true;
-			this.lblUniversity.Location = new System.Drawing.Point(12, 121);
+			this.lblUniversity.Location = new System.Drawing.Point(22, 223);
+			this.lblUniversity.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblUniversity.Name = "lblUniversity";
-			this.lblUniversity.Size = new System.Drawing.Size(53, 13);
+			this.lblUniversity.Size = new System.Drawing.Size(97, 25);
 			this.lblUniversity.TabIndex = 19;
 			this.lblUniversity.Text = "University";
 			// 
 			// lblSpecialityCode
 			// 
 			this.lblSpecialityCode.AutoSize = true;
-			this.lblSpecialityCode.Location = new System.Drawing.Point(12, 175);
+			this.lblSpecialityCode.Location = new System.Drawing.Point(22, 323);
+			this.lblSpecialityCode.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblSpecialityCode.Name = "lblSpecialityCode";
-			this.lblSpecialityCode.Size = new System.Drawing.Size(80, 13);
+			this.lblSpecialityCode.Size = new System.Drawing.Size(149, 25);
 			this.lblSpecialityCode.TabIndex = 23;
 			this.lblSpecialityCode.Text = "Speciality Code";
 			// 
 			// lblDegree
 			// 
 			this.lblDegree.AutoSize = true;
-			this.lblDegree.Location = new System.Drawing.Point(12, 148);
+			this.lblDegree.Location = new System.Drawing.Point(22, 273);
+			this.lblDegree.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblDegree.Name = "lblDegree";
-			this.lblDegree.Size = new System.Drawing.Size(42, 13);
+			this.lblDegree.Size = new System.Drawing.Size(76, 25);
 			this.lblDegree.TabIndex = 21;
 			this.lblDegree.Text = "Degree";
 			// 
 			// lblAuthors
 			// 
 			this.lblAuthors.AutoSize = true;
-			this.lblAuthors.Location = new System.Drawing.Point(12, 202);
+			this.lblAuthors.Location = new System.Drawing.Point(22, 373);
+			this.lblAuthors.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
 			this.lblAuthors.Name = "lblAuthors";
-			this.lblAuthors.Size = new System.Drawing.Size(43, 13);
+			this.lblAuthors.Size = new System.Drawing.Size(80, 25);
 			this.lblAuthors.TabIndex = 25;
 			this.lblAuthors.Text = "Authors";
 			// 
@@ -241,46 +261,48 @@
 			// 
 			this.gridAuthors.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.gridAuthors.GridColor = System.Drawing.SystemColors.ControlLight;
-			this.gridAuthors.Location = new System.Drawing.Point(128, 199);
+			this.gridAuthors.Location = new System.Drawing.Point(235, 367);
+			this.gridAuthors.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.gridAuthors.MultiSelect = false;
 			this.gridAuthors.Name = "gridAuthors";
-			this.gridAuthors.Size = new System.Drawing.Size(414, 87);
+			this.gridAuthors.Size = new System.Drawing.Size(759, 161);
 			this.gridAuthors.TabIndex = 26;
 			// 
 			// txtNumPages
 			// 
-			this.txtNumPages.Location = new System.Drawing.Point(509, 66);
-			this.txtNumPages.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.txtNumPages.Location = new System.Drawing.Point(933, 122);
+			this.txtNumPages.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtNumPages.Mask = "0000";
 			this.txtNumPages.Name = "txtNumPages";
-			this.txtNumPages.Size = new System.Drawing.Size(30, 20);
+			this.txtNumPages.Size = new System.Drawing.Size(52, 29);
 			this.txtNumPages.TabIndex = 27;
 			this.txtNumPages.TextMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals;
 			// 
 			// txtYear
 			// 
-			this.txtYear.Location = new System.Drawing.Point(128, 64);
-			this.txtYear.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.txtYear.Location = new System.Drawing.Point(235, 118);
+			this.txtYear.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtYear.Mask = "0000";
 			this.txtYear.Name = "txtYear";
-			this.txtYear.Size = new System.Drawing.Size(30, 20);
+			this.txtYear.Size = new System.Drawing.Size(52, 29);
 			this.txtYear.TabIndex = 28;
 			this.txtYear.ValidatingType = typeof(int);
 			// 
 			// txtSpecialityCode
 			// 
-			this.txtSpecialityCode.Location = new System.Drawing.Point(128, 172);
-			this.txtSpecialityCode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.txtSpecialityCode.Location = new System.Drawing.Point(235, 318);
+			this.txtSpecialityCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.txtSpecialityCode.Mask = "00,00,00";
 			this.txtSpecialityCode.Name = "txtSpecialityCode";
-			this.txtSpecialityCode.Size = new System.Drawing.Size(48, 20);
+			this.txtSpecialityCode.Size = new System.Drawing.Size(85, 29);
 			this.txtSpecialityCode.TabIndex = 29;
 			// 
 			// txtDegree
 			// 
-			this.txtDegree.Location = new System.Drawing.Point(128, 145);
+			this.txtDegree.Location = new System.Drawing.Point(235, 268);
+			this.txtDegree.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
 			this.txtDegree.Name = "txtDegree";
-			this.txtDegree.Size = new System.Drawing.Size(199, 20);
+			this.txtDegree.Size = new System.Drawing.Size(362, 29);
 			this.txtDegree.TabIndex = 22;
 			// 
 			// errorProvider
@@ -289,10 +311,10 @@
 			// 
 			// btnAddAuthor
 			// 
-			this.btnAddAuthor.Location = new System.Drawing.Point(128, 291);
-			this.btnAddAuthor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.btnAddAuthor.Location = new System.Drawing.Point(235, 537);
+			this.btnAddAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnAddAuthor.Name = "btnAddAuthor";
-			this.btnAddAuthor.Size = new System.Drawing.Size(213, 19);
+			this.btnAddAuthor.Size = new System.Drawing.Size(391, 35);
 			this.btnAddAuthor.TabIndex = 30;
 			this.btnAddAuthor.Text = "Add author";
 			this.btnAddAuthor.UseVisualStyleBackColor = true;
@@ -300,10 +322,10 @@
 			// 
 			// btnRemoveAuthor
 			// 
-			this.btnRemoveAuthor.Location = new System.Drawing.Point(345, 291);
-			this.btnRemoveAuthor.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+			this.btnRemoveAuthor.Location = new System.Drawing.Point(633, 537);
+			this.btnRemoveAuthor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.btnRemoveAuthor.Name = "btnRemoveAuthor";
-			this.btnRemoveAuthor.Size = new System.Drawing.Size(197, 19);
+			this.btnRemoveAuthor.Size = new System.Drawing.Size(361, 35);
 			this.btnRemoveAuthor.TabIndex = 31;
 			this.btnRemoveAuthor.Text = "Delete author";
 			this.btnRemoveAuthor.UseVisualStyleBackColor = true;
@@ -311,9 +333,10 @@
 			// 
 			// AddEditionForm
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(568, 348);
+			this.AutoSize = true;
+			this.ClientSize = new System.Drawing.Size(1041, 642);
 			this.Controls.Add(this.btnRemoveAuthor);
 			this.Controls.Add(this.btnAddAuthor);
 			this.Controls.Add(this.txtSpecialityCode);
@@ -341,6 +364,10 @@
 			this.Controls.Add(this.lblTitle);
 			this.Controls.Add(this.cmbEditionTypes);
 			this.Controls.Add(this.lblEditionType);
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+			this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "AddEditionForm";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
 			this.Text = "Add Edition";

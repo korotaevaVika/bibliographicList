@@ -1,10 +1,12 @@
 ﻿using System.Linq;
+using System.Xml.Serialization;
 
 namespace Model
 {
 	/// <summary>
 	/// Диссертация
 	/// </summary>
+	[XmlRoot(ElementName = "Dissertation")]
 	public class Dissertation : EditionBase
 	{
 		private string _degree;
